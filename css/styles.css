@@ -3705,6 +3705,7 @@ td:last-child {
     .s-intro__content-pretitle {
         font-size  : var(--text-sm);
         line-height: var(--vspace-0_75);
+        text-shadow: 1px 1px 3px;
     }
 
     .s-intro__social {
@@ -3741,6 +3742,7 @@ td:last-child {
     .s-intro__content {
         padding-bottom: var(--vspace-0_75);
         align-items   : center;
+        backdrop-filter: blur(5px);
     }
 
     .s-intro__content-text {
